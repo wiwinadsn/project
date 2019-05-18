@@ -11,9 +11,10 @@ body{font-family:"Roboto",sans-serif!important;font-size: 100%;margin:0px;paddin
 #navcontainer li ul li a {width: auto;min-width: 100px;padding: 0 20px;text-align:left;}
 #navcontainer ul li a:hover + .hidden, .hidden:hover {display: block;}
 
-.show-menu {text-decoration: none;color: #fff;background: #FE9800;text-align: left;padding: 10px 5px;display: none; }
+.show-menu2 {text-decoration: none;color: #fff;background: #FE9800;text-align: left;padding: 10px 5px;display: none; }
 #navcontainer input[type=checkbox]{display: none;}
-#navcontainer input[type=checkbox]:checked ~ #menus {display: block;}
+#navcontainer input[type=checkbox]:checked ~ 
+#menus2 {display: block;}
 #navcontainer .fa-2 {font-size: 2em;}
 #navcontainer .fa-3 {font-size: 4em;}
 #navcontainer .fa-4 {font-size: 7em;}
@@ -44,8 +45,8 @@ body{font-family:"Roboto",sans-serif!important;font-size: 100%;margin:0px;paddin
 	#navcontainer ul li, #navcontainer li a {width: 100%;}
     #navcontainer li a{display:block;height:auto;line-height:normal;}
 	#navcontainer li a {text-align:left;}
-	.show-menu {display:block!important;line-height:30px;}
-	.show-menu:hover {cursor:pointer;}
+	.show-menu2 {display:block!important;line-height:30px;}
+	.show-menu2:hover {cursor:pointer;}
     label {margin:0!important;}
 }
 /*end-responsive*/
